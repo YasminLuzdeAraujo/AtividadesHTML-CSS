@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra Angela Luz | Estética Avançada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=adee01066f&attid=0.1&permmsgid=msg-a:r-7048820195133583190&th=19e3ba5b044dd9e5&view=fimg&fur=ip&permmsgid=msg-a:r-7048820195133583190&sz=s0-l75-ft&attbid=ANGjdJ-CRR2ybaGLyxkHc6olWYUoP1xexs6NItDkMzWVIGfV3g6W0dmZl10Dgwhwd9RUgaIvbSOqfSQ1t3WfuotX7pApPRQdH0r8wWpH9yzejCh5f5EAIm3gsLzG9Dw&disp=emb&realattid=ii_19e3ba5a57f5ca682cb1&zw"
+                    alt="Logo">
+
+                <span>Dra Angela Luz</span>
+
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="tratamentos.html">Tratamentos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="ozonioterapia.html">Ozonioterapia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+
+            <h1 class="titulo">Ozonioterapia</h1>
+
+            <p class="subtitulo">
+                Tecnologia e bem-estar para tratamentos estéticos e terapêuticos.
+            </p>
+
+            <div class="sobre">
+
+                <img src="https://www.inipe.com.br/wp-content/uploads/2020/07/ozonioterapia-na-estetica.jpg">
+
+                <div class="sobre-texto">
+
+                    <p>
+                        A ozonioterapia é um procedimento que utiliza o gás ozônio
+                        com finalidade terapêutica e estética, auxiliando na
+                        regeneração, oxigenação e melhora da circulação.
+                    </p>
+
+                    <p>
+                        O tratamento pode ajudar em processos inflamatórios,
+                        rejuvenescimento, acne, cicatrização e bem-estar geral.
+                    </p>
+
+                    <p>
+                        Os procedimentos são realizados com segurança e avaliação
+                        personalizada para cada paciente.
+                    </p>
+
+                    <a href="contato.html" class="botao">
+                        Agendar Avaliação
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+
+            <h2 class="titulo">Benefícios</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Melhora da Circulação</h3>
+                        <p>
+                            Auxilia na oxigenação dos tecidos e circulação sanguínea.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Ação Anti-inflamatória</h3>
+                        <p>
+                            Pode ajudar na recuperação e redução de inflamações.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Rejuvenescimento</h3>
+                        <p>
+                            Procedimentos estéticos com foco em renovação da pele.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Dra. Angela Luz - Todos os direitos reservados.</p>
+    </footer>
+    <section class="reveal">
+        <script>
+
+            window.addEventListener('scroll', reveal);
+
+            function reveal() {
+
+                let reveals = document.querySelectorAll('.reveal');
+
+                for (let i = 0; i < reveals.length; i++) {
+
+                    let windowHeight = window.innerHeight;
+
+                    let elementTop = reveals[i].getBoundingClientRect().top;
+
+                    let elementVisible = 100;
+
+                    if (elementTop < windowHeight - elementVisible) {
+
+                        reveals[i].classList.add('active');
+
+                    }
+                }
+            }
+
+        </script>
+
+        <a href="#" class="whatsapp">
+            WhatsApp
+        </a>
+</body>
+
+</html>

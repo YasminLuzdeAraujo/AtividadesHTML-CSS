@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra Angela Luz | Estética Avançada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=adee01066f&attid=0.1&permmsgid=msg-a:r-7048820195133583190&th=19e3ba5b044dd9e5&view=fimg&fur=ip&permmsgid=msg-a:r-7048820195133583190&sz=s0-l75-ft&attbid=ANGjdJ-CRR2ybaGLyxkHc6olWYUoP1xexs6NItDkMzWVIGfV3g6W0dmZl10Dgwhwd9RUgaIvbSOqfSQ1t3WfuotX7pApPRQdH0r8wWpH9yzejCh5f5EAIm3gsLzG9Dw&disp=emb&realattid=ii_19e3ba5a57f5ca682cb1&zw"
+                    alt="Logo">
+
+                <span>Dra Angela Luz</span>
+
+            </div>
+
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="tratamentos.html">Tratamentos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="ozonioterapia.html">Ozonioterapia</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container sobre">
+
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=adee01066f&attid=0.1&permmsgid=msg-a:r5941894717245783336&th=19e3c082fa3274de&view=fimg&fur=ip&permmsgid=msg-a:r5941894717245783336&sz=s0-l75-ft&attbid=ANGjdJ8C6ox04WBlHnVVUHRF6C7BqPspSkuI358gpQpM8cHbGioNffIlsC3sPvK5pmvb0yyipM3wPPn2S3agL70ksECGV-S5WcPKZzGrH5L_7fHUfNsqDbVubEBWzYc&disp=emb&realattid=ii_19e3c08123f349a29941&zw"
+                alt="Profissional">
+
+            <div class="sobre-texto">
+                <h2 class="titulo">Sobre a Profissional</h2>
+
+                <p>
+                    Sou biomédica formada, apaixonada pela área da estética e pelo cuidado individualizado de cada
+                    paciente. Minha missão é unir ciência, saúde e beleza de forma segura, ética e natural,
+                    proporcionando tratamentos que valorizam a autoestima e o bem-estar.
+
+                    Mais do que procedimentos, meu objetivo é ajudar cada paciente a se sentir mais confiante,
+                    confortável e feliz consigo mesma.
+                </p>
+
+                <p>
+                    Especializada em ozonioterapia, busco oferecer procedimentos modernos e personalizados, sempre
+                    focados na qualidade, no conforto e nos resultados naturais. Cada atendimento é realizado de maneira
+                    cuidadosa e exclusiva.
+
+                    Meu compromisso é proporcionar uma experiência acolhedora, utilizando técnicas atualizadas e
+                    tecnologias avançadas para promover saúde, rejuvenescimento e equilíbrio estético.
+                </p>
+
+                <a href="contato.html" class="botao">Entrar em Contato</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Dra. Angela Luz - Todos os direitos reservados.</p>
+    </footer>
+    <section class="reveal">
+        <script>
+
+            window.addEventListener('scroll', reveal);
+
+            function reveal() {
+
+                let reveals = document.querySelectorAll('.reveal');
+
+                for (let i = 0; i < reveals.length; i++) {
+
+                    let windowHeight = window.innerHeight;
+
+                    let elementTop = reveals[i].getBoundingClientRect().top;
+
+                    let elementVisible = 100;
+
+                    if (elementTop < windowHeight - elementVisible) {
+
+                        reveals[i].classList.add('active');
+
+                    }
+                }
+            }
+
+        </script>
+
+        <a href="#" class="whatsapp">
+            WhatsApp
+        </a>
+</body>
+
+</html>
